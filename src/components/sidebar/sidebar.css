@@ -1,0 +1,42 @@
+.sideBar{
+    background-color: rgb(212, 212, 212);
+    position:absolute;
+    top:0px;
+    left:50px;
+    width:250px;
+    height:100vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    
+}
+
+@media only screen and (max-width: 960px) {
+    .sideBar{
+        display:none;
+    }
+}
+
+.drawerSidebarContent{
+    width:300px !important;
+}
+
+
+.priceBoxes{
+   
+    display:flex;
+    justify-content: space-between;
+}
+
+.priceBox{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 2px 7px;
+}
+
+.drawerSidebarContent{
+    display:flex !important;
+    flex-direction: column !important;
+}

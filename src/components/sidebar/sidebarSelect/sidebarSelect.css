@@ -1,0 +1,28 @@
+.select__name{
+height:50px;
+display:flex;
+justify-content:space-between;
+box-sizing:border-box;
+padding:5px 10px;
+align-items:center;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+.select__option{
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+    box-sizing:border-box;
+    padding:5px 10px;
+    align-items:center;
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    cursor:pointer;
+    background-color: rgba(205, 228, 233, 0.452);
+}
+
+.select__option:hover{
+background-color: rgb(147, 207, 219);
+}
